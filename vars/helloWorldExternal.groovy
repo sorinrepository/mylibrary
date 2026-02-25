@@ -1,4 +1,4 @@
 def helloWorld(Map config = [:]) {
-    loadlinuxscript(name : "helloWorld.sh")
-    sh './helloWorld.sh ${config.name} ${config.day}.'
+    loadlinuxscript(name : "hello-world.sh")
+    sh './hello-world.sh ${config.name} ${config.day}.'
 }
