@@ -1,0 +1,2 @@
+# mylibrary
+shared library
